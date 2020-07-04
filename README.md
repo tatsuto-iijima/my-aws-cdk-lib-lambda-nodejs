@@ -1,12 +1,5 @@
-# Welcome to your CDK TypeScript Construct Library project!
+# Amazon Lambda Node.js Library
 
-You should explore the contents of this project. It demonstrates a CDK Construct Library that includes a construct (`LambdaNodejs`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+This library provides constructs for Node.js Lambda functions.
 
-The construct defines an interface (`LambdaNodejsProps`) to configure the visibility timeout of the queue.
-
-## Useful commands
-
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
+To use this module, you will need to have Docker installed.
